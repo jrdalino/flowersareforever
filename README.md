@@ -8,8 +8,6 @@
 - Various discounts or marked up prices can be applied to certain products.
 - For example, one month before the Mother’s Day, the prices of any Flowers will be jacked up by a certain amount.
 
-
-
 ## Workshop 1:
 - During different seasons, the company may decide to vary the pricing schemes for its products. 
 - For example, a month before Mother’s Day, the prices of Flowers are marked-up. 
@@ -19,6 +17,13 @@
 ## Solution:
 - Strategy Pattern offers a solution so that switching between the different pricing schemes is simplified. 
 - Furthermore, the computation of the price itself is encapsulated in a separate class, so that changes in pricing scheme can be easily made.
+
+## To do:
+- Improve two classes called MothersDayStrategy and ValentinesDayStrategy that implement (inherits from) the PricingStrategy interface (abstract class). 
+- calculateTotal (..) method in the MothersDayStrategy class returns the total price of all the items. 
+- If the item is a Flower, it marks up the price by 15%. 
+- calculateTotal (..) method in the ValentinesDayStrategy class returns the total price of all the items. 
+- If the item is a Toy, it marks up the price by 25%.
 
 ## Setup 
 ```
