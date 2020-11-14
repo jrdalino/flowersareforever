@@ -25,6 +25,16 @@
 $ git clone https://github.com/jrdalino/flowersareforever.git
 ```
 
+## Enum
+```
+DAISY = 2;
+LILY = 3;
+JASMINE = 4;
+ROSE = 1;
+FERN = 21;
+SOFTTOY = 11;
+```
+
 ## Output
 ```
 runStrategy: BEGIN
