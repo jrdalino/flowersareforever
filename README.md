@@ -76,3 +76,15 @@ Expected quantity = 5.035
 
 runStrategy: END
 ```
+
+## Product Type Flower Validation
+- Regular Price of DAISY, 2 = 0.30 vs Mother's Day Price of 0.345 which is 15% mark up
+- Regular Price of LILY, 3 = 0.90 vs Mother's Day Price of 1.035 which is 15% mark up
+- Regular Price of JASMINE, 4 = 0.70 vs Mother's Day Price of 0.805 which is 15% mark up
+- Regular Price of ROSE, 5 = 1.00 vs Mother's Day Price of 1.15 which is 15% mark up
+
+## Product Type Non-Flower or Non-Toy Validation
+- Regular Price of FERN, 21 = 0.20 which i the same price for Mother's day and Valentines Day
+ 
+## Product Type Toy Validation
+- Regular Price of SOFTTOY, 11 = 1.50 vs Valentine's Day Price of 1.875 which is 25% mark up
