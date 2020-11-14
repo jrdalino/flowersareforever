@@ -23,6 +23,16 @@ $ git clone https://github.com/jrdalino/flowersareforever.git
 - Strategy Pattern offers a solution so that switching between the different pricing schemes is simplified. 
 - Furthermore, the computation of the price itself is encapsulated in a separate class, so that changes in pricing scheme can be easily made.
 
+## Enum
+```
+DAISY = 2;
+LILY = 3;
+JASMINE = 4;
+ROSE = 1;
+FERN = 21;
+SOFTTOY = 11;
+```
+
 ## Output
 ```
 runStrategy: BEGIN
