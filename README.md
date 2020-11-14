@@ -4,21 +4,22 @@
 - The objective of this workshop is to learn to solve the Pricing Algorithm problem using the Strategy Design Pattern.
 
 ## Overview
-- During Checkout of products, one of the operations that needs to be performed is the calculation of the total price of the shopping cart. Various discounts or marked up prices can be applied to certain products. For example, one month
+- During Checkout of products, one of the operations that needs to be performed is the calculation of the total price of the shopping cart. 
 - Various discounts or marked up prices can be applied to certain products.
 - For example, one month before the Mother’s Day, the prices of any Flowers will be jacked up by a certain amount.
+- You will incorporate the Strategy pattern for switching between different computing algorithms for ‘calculateTotal‘ operation of the checkout method of the ShoppingCart class.
 
-## Workshop 1:
+## Workshop 1
 - During different seasons, the company may decide to vary the pricing schemes for its products. 
 - For example, a month before Mother’s Day, the prices of Flowers are marked-up. 
 - Different policies may be applied at different times of the year. 
 - Flexibility is required, so that different pricing schemes can be selected by the application easily without making many modifications to the existing code.
 
-## Solution:
+## Solution
 - Strategy Pattern offers a solution so that switching between the different pricing schemes is simplified. 
 - Furthermore, the computation of the price itself is encapsulated in a separate class, so that changes in pricing scheme can be easily made.
 
-## To do:
+## To do
 - Improve two classes called MothersDayStrategy and ValentinesDayStrategy that implement (inherits from) the PricingStrategy interface (abstract class). 
 - calculateTotal (..) method in the MothersDayStrategy class returns the total price of all the items. 
 - If the item is a Flower, it marks up the price by 15%. 
